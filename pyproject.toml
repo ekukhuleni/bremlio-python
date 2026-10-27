@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bremlio"
+version = "0.1.0"
+description = "Tiny client for the Bremlio UK SMS and OTP API."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Bremlio Ltd" }]
+keywords = ["sms", "otp", "2fa", "uk", "sms-api", "bremlio"]
+dependencies = ["requests>=2.25"]
+
+[project.urls]
+Homepage = "https://www.bremlio.com"
+Documentation = "https://www.bremlio.com/developers.html"
+Repository = "https://github.com/ekukhuleni/bremlio-python"
+
+[tool.setuptools]
+py-modules = ["bremlio"]
